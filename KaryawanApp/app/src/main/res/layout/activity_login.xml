@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:alpha="0.5"
+        />
+
+   <com.mikhaellopez.circularimageview.CircularImageView
+       android:layout_width="140dp"
+       android:layout_height="140dp"
+       android:src="@drawable/ic_employee"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50dp"
+       android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logofont"
+        android:layout_below="@id/logo"
+        android:text="@string/app_name"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/et_username"
+                android:ems="10"
+                android:background="@drawable/roundwhite"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:drawablePadding="25dp"
+                android:hint="Enter Username"
+                android:paddingTop="5dp"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginTop="31dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/username"
+                />
+                
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/et_password"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundwhite"
+                android:layout_below="@+id/et_username"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:cursorVisible="true"
+                android:drawablePadding="25dp"
+                android:hint="Enter password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingStart="20dp"
+                android:drawableStart="@drawable/password"
+                />
+
+            <Button
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/et_password"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:text="SHOW"
+                android:textColor="@color/colorWhite" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round"
+            android:text="Login"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="@font/capriola"
+            android:layout_above="@+id/bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+         />
+
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Or login with"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:fontFamily="@font/capriola"
+            android:textColor="#FFF"/>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txt_register"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:fontFamily="@font/capriola"
+                android:textColor="#FFF"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Need Help ?"
+                android:fontFamily="@font/capriola"
+                android:textColor="#FFF"
+                android:gravity="end"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

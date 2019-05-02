@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35314520208",
+    "firebase_url": "https://karyawanapp-1534774520358.firebaseio.com",
+    "project_id": "karyawanapp-1534774520358",
+    "storage_bucket": "karyawanapp-1534774520358.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35314520208:android:f2fc5199668a70c8",
+        "android_client_info": {
+          "package_name": "com.example.karyawanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35314520208-q8kkp2p5d2pfl1vj4gb9443bg2a38qdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karyawanapp",
+            "certificate_hash": "55ee2df9fc407dca5a077f9d5d14aae933f77b9f"
+          }
+        },
+        {
+          "client_id": "35314520208-t8lujtn7410bpsi7el59hqi45uiqprcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBfCT321fE8GD5_bwqL3mCgnCY68_4Wco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35314520208-t8lujtn7410bpsi7el59hqi45uiqprcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

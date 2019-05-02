@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/drawer_layout"
+    android:gravity="bottom"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/nav_header_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_header_name"
+        android:paddingTop="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:fontFamily="@font/capriola"
+        android:text="Company Name"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:id="@+id/nav_header_email"
+        android:text="karyawan@company.com"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

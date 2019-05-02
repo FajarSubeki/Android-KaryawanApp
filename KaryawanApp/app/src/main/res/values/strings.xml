@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KaryawanApp</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">KaryawanApp!</string>
+    <string name="slide_1_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit!</string>
+
+    <string name="slide_2_title">Target</string>
+    <string name="slide_2_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit!</string>
+
+    <string name="slide_3_title">Plan</string>
+    <string name="slide_3_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit!</string>
+
+    <string name="slide_4_title">Like That</string>
+    <string name="slide_4_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="fb_app_id">857131754675940</string>
+
+    <string name="default_sign_in_button">Default Sign In Button</string>
+    <string name="custom_sign_in_button">Custom Sign In Button</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
